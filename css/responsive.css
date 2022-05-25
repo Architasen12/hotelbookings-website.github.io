@@ -1,0 +1,177 @@
+@media (max-width:1199px){
+/* Header */
+.navbar-expand-lg .navbar-nav{
+    align-items: center;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 0;
+    font-size: .875rem;
+}
+.main-btn{
+    font-size: .875rem;
+}
+/* Booking area */
+.booking-area{
+    padding: 3rem .625rem;
+}
+.booking-area .main-btn{
+    padding-left: .3125rem !important;
+    padding-right: .3125rem !important;
+}
+/* Rooms */
+.room-items .room-content{
+    padding: 1rem 1.875rem;
+}
+.room-items .room-content h5{
+    font-size: 1.2rem;
+}
+.room-items .room-content p{
+    font-size: 0.75rem;
+}
+/* services */
+.service-item-wrap .tab-content img{
+    width: 100%;
+    }
+    .service-menu-area ul li a{
+        margin-bottom: .8125rem;
+        overflow: hidden;
+    }
+    .service-menu-area ul li{
+    margin-left: -0.9375rem;
+    margin-top: 2.875rem;
+    }
+
+
+
+
+}
+
+
+
+
+/************ MAX WIDTH 991PX FILE **********/
+@media (max-width:991px){
+    
+    /* custom css */
+    section{
+        padding:1.875rem 0;
+    }
+
+    /* navbar */
+    .header-scrolled{
+        height: auto;
+    }
+    .header-wrapped .menu-navbar-nav{
+        text-align: center;
+        padding-bottom: .9375rem;
+    }
+ .header-wrapped .nav-item .nav-link{
+     margin-top: 20px;
+ }
+ 
+ /* banner wrapper */
+ .banner-wrapper{
+     height: 25.625rem;
+ }
+ .booking-area{
+     padding: 3.125rem 1.875rem;
+ }
+ 
+ /* about */
+ .about-wrapper img{
+     width: 100%;
+     margin-bottom: 25px;
+ }
+
+.about-wrapper {
+    padding-top: 75px;
+}
+   /* Rooms */
+.room-items .room-content{
+    padding: 2rem 1.875rem;
+}
+.room-items .room-content h5{
+    font-size: 16px;
+}
+.room-items .room-content p{
+    font-size: 1rem;
+} 
+.rooms-wrapper .room-item-wrap{
+    left: 20px;
+    right: 20px;
+}
+.rooms-wrapper .room-items .room-content{
+    padding: 10px 15px;
+}
+.footer-wrapper .form-group input{
+    width: 100%;
+ }
+
+    
+}
+
+/************ MAX WIDTH 767PX FILE **********/
+@media (max-width:767px){
+/* Custom css */
+h1{
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+}
+h3{
+    font-size: 1.75rem;
+    line-height: 2.1875rem;
+}
+h5{
+    font-size: 1.25rem;
+}
+p{
+    font-size: 16px;
+    line-height: 1.5rem ;
+    color: var(--bg-while);
+}
+.service-menu-area ul li a p{
+    color: #000;
+}
+.service-menu-area ul li{
+    margin-left: -0.0675rem;
+    margin-top: 2rem;
+    }
+
+    .price-wrapper .card h3,
+    .price-wrapper .card h5,
+    .price-wrapper .card p{
+        color: #000;
+    }
+
+    .owl-carousel .card-body h3{
+        font-size: 20px;
+    }
+    .owl-carousel .card-body h4{
+        font-size: 18px;
+    }
+    .owl-carousel .card-body h5{
+        font-size: 16px;
+        font-weight: 500;
+       padding-bottom: 10px;
+       line-height: 32px;
+       font-weight: 400;
+       font-family: var(--primary-font);
+    }
+
+/* blog */
+.blog-wrapper .blog-content{
+    margin: 0;
+}
+/* footer */
+.footer-wrapper > div{
+    padding: 0 1.875rem;
+}
+.footer-wrapper .form-group input{
+    width: 100%;
+ }
+ .footer-wrapper h5{
+     padding-top: 20px;
+ }
+
+
+}
